@@ -4,12 +4,9 @@
 
     </head>
     <body>
-        <div class="container">
         <a class="btn btn-danger" href="{{route('home')}}">Home</a>
         <a class="btn btn-success" href="{{route('profile')}}">My Profile</a>
         <a class="btn btn-primary" href="{{route('contact')}}">Contact</a>
-        </div>
-        
     </body>
     
 </html>

@@ -20,4 +20,6 @@ Route::get('/contact/public',[PagesController::class,'contact'])->name('contact'
 Route::get('/profile',[PagesController::class,'myprofile'])->name('profile');
 
 Route::get('/student/create',[StudentController::class,'create'])->name('student.create');
-
+Route::post('/student/create',[StudentController::class,'createSubmit'])->name('student.create');
+Route::get('/student/list',[StudentController::class,'list'])->name('student.list');
+Route::get('/student/edit/{id}/{name}',[StudentController::class,'edit']);
